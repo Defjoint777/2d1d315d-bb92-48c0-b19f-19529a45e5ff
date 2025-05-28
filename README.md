@@ -92,10 +92,15 @@ $
 ## Questions
 
 1. What is the purpose of `venv`, and how does it relate to system-wide installations?
-2. How can you check whether you're currently inside a virtual environment?
-3. What happens when you run `pip install <package>` inside a virtual environment?
-4. How does `pip freeze` help with project reproducibility?
-5. Why might you want to use different versions of the same library in different projects?
+   venv creating virtual environment which helps us to avoid dependencies conflict and systemwide libraries installation.
+3. How can you check whether you're currently inside a virtual environment?
+ which python3
+5. What happens when you run `pip install <package>` inside a virtual environment?
+   i will get <package> installed but it will be only in this environment available 
+7. How does `pip freeze` help with project reproducibility?
+   with pip freeze > requirements.txt we cant save information of installed packages, with pip install -r requirements.txt we can install of the packages listed in requirements.txt
+9. Why might you want to use different versions of the same library in different projects?
+    in different projects we got different versions of packages not all versions of packages are compatible with each other.
 
 
 ## Advice
